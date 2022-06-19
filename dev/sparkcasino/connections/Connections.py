@@ -1,7 +1,9 @@
+import findspark
+findspark.init()
 import pyspark
-import pandas
-
-spark = pyspark.sql.SparkSession.builder.master("local").appName("spark1").getOrCreate()
+#import pandas
+spark = pyspark.sql.SparkSession.builder.master("local").appName("spark").getOrCreate()
+#spark = pyspark.sql.SparkSession.builder.master("local").appName("spark1").getOrCreate()
 
 schema_def = pyspark.sql.types.StructType()  # Created a StructType object
 schema_def.add("Date", "date", True)
@@ -15,17 +17,18 @@ schema_def.add("BetId", "integer", True)
 schema_def.add("PlayerId", "integer", True)
 
 curexdf = spark.read.format("csv").option("inferSchema", "true").option("header", "true"). \
-    load("CurrencyExchange.csv")
+    load("C:/Users/mpuga/PycharmProjects/spark_practice/dev/sparkcasino/input-tables/CurrencyExchange.csv")
 gamedf = spark.read.format("csv").option("inferSchema", "true").option("header", "true"). \
-    load("Game.csv")
+    load("C:/Users/mpuga/PycharmProjects/spark_practice/dev/sparkcasino/input-tables/Game.csv")
 gamecatdf = spark.read.format("csv").option("inferSchema", "true").option("header", "true"). \
-    load("GameCategory.csv")
+    load("C:/Users/mpuga/PycharmProjects/spark_practice/dev/sparkcasino/input-tables/GameCategory.csv")
 gameprovdf = spark.read.format("csv").option("inferSchema", "true").option("header", "true"). \
-    load("GameProvider.csv")
+    load("C:/Users/mpuga/PycharmProjects/spark_practice/dev/sparkcasino/input-tables/GameProvider.csv")
 gametransdf = spark.read.format("csv").option("header", "true"). \
-    option("delimiter", ";").load("GameTransaction.csv", schema=schema_def)
+    option("delimiter", ";"). \
+    load("C:/Users/mpuga/PycharmProjects/spark_practice/dev/sparkcasino/input-tables/GameTransaction.csv", schema=schema_def)
 playerdf = spark.read.format("csv").option("inferSchema", "true").option("header", "true"). \
-    load("Player.csv")
+    load("C:/Users/mpuga/PycharmProjects/spark_practice/dev/sparkcasino/input-tables/Player.csv")
 gametransdf.createOrReplaceTempView("gametransdf1")
 playerdf.createOrReplaceTempView("playerdf1")
 
