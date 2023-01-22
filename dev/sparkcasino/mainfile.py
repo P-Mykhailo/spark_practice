@@ -3,33 +3,51 @@ findspark.init()
 import pyspark
 
 spark = pyspark.sql.SparkSession.builder.master("local").appName("spark").getOrCreate()
+class inputdata():
 
-schema_def = pyspark.sql.types.StructType()  # Created a StructType object
-schema_def.add("Date", "date", True)
-schema_def.add("realAmount", "integer", True)
-schema_def.add("bonusAmount", "integer", True)
-schema_def.add("channelUID", "string", True)
-schema_def.add("txCurrency", "string", True)
-schema_def.add("gameID", "integer", True)
-schema_def.add("txType", "string", True)
-schema_def.add("BetId", "integer", True)
-schema_def.add("PlayerId", "integer", True)
 
-curexdf = spark.read.format("csv").option("inferSchema", "true").option("header", "true"). \
-    load("C:/Users/mpuga/PycharmProjects/spark_practice/dev/sparkcasino/input-tables/CurrencyExchange.csv")
-gamedf = spark.read.format("csv").option("inferSchema", "true").option("header", "true"). \
-    load("C:/Users/mpuga/PycharmProjects/spark_practice/dev/sparkcasino/input-tables/Game.csv")
-gamecatdf = spark.read.format("csv").option("inferSchema", "true").option("header", "true"). \
-    load("C:/Users/mpuga/PycharmProjects/spark_practice/dev/sparkcasino/input-tables/GameCategory.csv")
-gameprovdf = spark.read.format("csv").option("inferSchema", "true").option("header", "true"). \
-    load("C:/Users/mpuga/PycharmProjects/spark_practice/dev/sparkcasino/input-tables/GameProvider.csv")
-gametransdf = spark.read.format("csv").option("header", "true"). \
-    option("delimiter", ";"). \
-    load("C:/Users/mpuga/PycharmProjects/spark_practice/dev/sparkcasino/input-tables/GameTransaction.csv", schema=schema_def)
-playerdf = spark.read.format("csv").option("inferSchema", "true").option("header", "true"). \
-    load("C:/Users/mpuga/PycharmProjects/spark_practice/dev/sparkcasino/input-tables/Player.csv")
-gametransdf.createOrReplaceTempView("gametransdf1")
-playerdf.createOrReplaceTempView("playerdf1")
+    def curexdf(self):
+        curexdf = spark.read.format("csv").option("inferSchema", "true").option("header", "true"). \
+        load("C:/Users/mpuga/PycharmProjects/spark_practice/dev/sparkcasino/input-tables/CurrencyExchange.csv")
+        return curexdf
+
+    def gamedf(self):
+        gamedf = spark.read.format("csv").option("inferSchema", "true").option("header", "true"). \
+        load("C:/Users/mpuga/PycharmProjects/spark_practice/dev/sparkcasino/input-tables/Game.csv")
+        return gamedf
+
+    def gamecatdf(self):
+        gamecatdf = spark.read.format("csv").option("inferSchema", "true").option("header", "true"). \
+        load("C:/Users/mpuga/PycharmProjects/spark_practice/dev/sparkcasino/input-tables/GameCategory.csv")
+        return gamecatdf
+
+    def gameprovdf(self):
+        gameprovdf = spark.read.format("csv").option("inferSchema", "true").option("header", "true"). \
+        load("C:/Users/mpuga/PycharmProjects/spark_practice/dev/sparkcasino/input-tables/GameProvider.csv")
+        return gameprovdf
+
+    def gametransdf(self):
+        schema_def = pyspark.sql.types.StructType()  # Created a StructType object
+        schema_def.add("Date", "date", True)
+        schema_def.add("realAmount", "integer", True)
+        schema_def.add("bonusAmount", "integer", True)
+        schema_def.add("channelUID", "string", True)
+        schema_def.add("txCurrency", "string", True)
+        schema_def.add("gameID", "integer", True)
+        schema_def.add("txType", "string", True)
+        schema_def.add("BetId", "integer", True)
+        schema_def.add("PlayerId", "integer", True)
+        gametransdf = spark.read.format("csv").option("header", "true"). \
+        option("delimiter", ";"). \
+        load("C:/Users/mpuga/PycharmProjects/spark_practice/dev/sparkcasino/input-tables/GameTransaction.csv", schema=schema_def)
+        return gametransdf
+
+    def playerdf(self):
+        playerdf = spark.read.format("csv").option("inferSchema", "true").option("header", "true"). \
+        load("C:/Users/mpuga/PycharmProjects/spark_practice/dev/sparkcasino/input-tables/Player.csv")
+
+    gametransdf.createOrReplaceTempView("gametransdf1")
+    playerdf.createOrReplaceTempView("playerdf1")
 
 # Top 5 Countries by Games Count
 gcount = gametransdf.join(playerdf, gametransdf.PlayerId == playerdf.playerID, how='inner'). \
