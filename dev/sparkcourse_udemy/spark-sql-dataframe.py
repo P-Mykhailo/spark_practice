@@ -26,7 +26,7 @@ people.select(people.name, people.age + 10).show()
 print("Average count of friends group by year")
 
 people.groupBy("age").agg(func.round(func.avg("friends"), 0)\
-                          .alias("friends_avg")).sort(func.col("friends_avg").desc()).show()
+                          .alias("friends_avg")).sort(func.desc("friends_avg")).show()
 
 spark.stop()
 

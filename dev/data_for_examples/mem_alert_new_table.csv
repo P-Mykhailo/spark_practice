@@ -1,0 +1,101 @@
+﻿intervalidentifier,eventtypeid,message_orig,message_revised,priority_orig,priority_revised
+3:135-J1939,1,Fuel Pump Delivery Pres Sensor Circuit shorted high,"Fuel Delivery Pressure 1 Sensor Circuit ",0,NULL
+3:633-J1939,1,Eng Fuel Actuator 1 Ctrl Command-Shorted high,"Electronic Fuel Injection Control Valve Circuit - Voltage above normal, or shorted to high source",0,NULL
+3:931-J1939,1,Fuel Supply Pump Actuator Circuit shorted high,"Fuel Supply Pump Actuator Driver Circuit ",0,NULL
+4:135-J1939,1,Fuel Pump Delivery Pres Sensor Circuit shorted low,"Fuel Delivery Pressure 1 Sensor Circuit ",0,NULL
+4:156-J1939,1,Eng Injector Timing Rail 1 Pres-Shorted low,"Injector Timing Rail 1 Fuel Pressure Sensor Circuit ",0,NULL
+4:171-J1939,1,Ambient Air Temper-Shorted low,"Ambient Air Temperature Sensor 1 Circuit ",0,NULL
+4:632-J1939,1,Eng Fuel Shutoff 1 Ctrl-Shorted low,"Engine Fuel Shutoff Valve Driver Circuit ",0,NULL
+4:1173-J1939,1,Eng Turbocharger 2 Compressor Inlet Temper-Shorted low,"Turbocharger 2 Compressor Intake Temperature Circuit ",0,NULL
+404-IM,1,404-IM,Tire 1 (Front Left) No Data / Sensor Failure / Not Connected Fault,1,NULL
+412-IM,1,412-IM,Tire 2 (Front Right) No Data / Sensor Failure / Not Connected Fault,1,NULL
+420-IM,1,420-IM,Tire 3 (Rear Left Outboard) No Data / Sensor Failure / Not Connected Fault,1,NULL
+428-IM,1,428-IM,Tire 4 (Rear Left Inboard) No Data / Sensor Failure / Not Connected Fault,1,NULL
+436-IM,1,436-IM,Tire 5 (Rear Right Inboard) No Data / Sensor Failure / Not Connected Fault,1,NULL
+444-IM,1,444-IM,Tire 6 (Rear Right Outboard) No Data / Sensor Failure / Not Connected Fault,1,NULL
+98:2-PSC,1,98:2-PSC,Alternator Overspeed,1,NULL
+0:52-J1939,1,Eng Intercooler Temper-High - most severe(3),"Coolant Temperature 2 (LT) ",1,NULL
+0:99-J1939,1,Eng Oil Filter Differential Pres-High - most severe(3),"Engine Oil Filter Differential Pressure ",1,NULL
+1:98-J1939,1,Eng Oil Level-Low - most severe(3),"Engine Oil Level ",1,NULL
+2:93-J1939,1,OEM Alternate torque validation switch data incorrect,"Auxiliary Alternate Torque Validation Switch ",1,NULL
+0:103-J1939,1,Eng Turbocharger 1 Spd-High - most severe(3),"Turbocharger 1 Speed ",1,NULL
+0:105-J1939,1,Intake Manifold 1 Temp - Data Valid but Above Norm Operational Range - Most Severe Level,"Intake Manifold 1 Temperature ",1,NULL
+0:110-J1939,1,Engine Coolant Temp - Data Valid but Above Normal Operational Range - Most Severe Level,"Engine Coolant Temperature ",1,NULL
+0:159-J1939,1,Eng Gas Supply Pres-High - most severe(3),"Gas Supply Pressure (Regulated) ",1,NULL
+0:174-J1939,1,Engine Fuel Temp - Data Valid but Above Normal Operational Range - Most Severe Level,"Engine Fuel Temperature ",1,NULL
+0:175-J1939,1,Engine Oil Temp - Data Valid but Above Normal Operational Range - Most Severe Level,"Engine Oil Temperature ",1,NULL
+0:190-J1939,1,Engine Crankshaft Spd/Pos - Data Valid but Above Norm Op Range - Most Severe Lvl,"Engine Crankshaft Speed/Position ",1,NULL
+1:109-J1939,1,Coolant Pressure - Data Valid but Below Normal Operational Range - Most Severe Level,"Coolant Pressure ",1,NULL
+1:110-J1939,1,Eng Coolant Temper-Low - most severe(3),"Engine Coolant Temperature ",1,NULL
+1:111-J1939,1,Coolant Level - Data Valid but Below Normal Operational Range - Most Severe Level,"Coolant Level ",1,NULL
+1:168-J1939,1,Battery Potential / Power Input 1-Low - most severe(3),"Battery 1 Voltage ",1,NULL
+2:612-J1939,1,"Eng Magnetic Spd/Pos Lost Both of Two Signals-Data Erratic, Intermittent, or Incorrect","Engine Magnetic Speed/Position Lost Both of Two Signals ",1,NULL
+3:611-J1939,1,PostFilter Oil Pres Sensor Circuit,"Off / Manual / Auto' switch circuit ",1,NULL
+3:611-J1939,1,PostFilter Oil Pres Sensor Circuit,"Analog Input signal circuit for Load Govern kVAR Setpoint ",1,NULL
+3:611-J1939,1,PostFilter Oil Pres Sensor Circuit,"Analog Input signal circuit for Load Govern kW Setpoint ",1,NULL
+4:611-J1939,1,PostFilter Oil Pres Sensor Circuit,"Analog Input signal circuit for Load Govern kVAR Setpoint ",1,NULL
+4:611-J1939,1,PostFilter Oil Pres Sensor Circuit,"Blowby Sensor Circuit ",1,NULL
+4:611-J1939,1,PostFilter Oil Pres Sensor Circuit,"Analog Input signal circuit for Load Govern kW Setpoint ",1,NULL
+4:611-J1939,1,PostFilter Oil Pres Sensor Circuit,"Off / Manual / Auto' switch circuit ",1,NULL
+7:635-J1939,1,Eng Timing Actuator is not responding to ECM commands,"Engine Timing Actuator Driver Circuit ",1,NULL
+7:931-J1939,1,Fuel Supply Pump Actuator mechanically stuck,"Fuel Supply Pump Actuator Driver ",1,NULL
+9:625-J1939,1,Proprietary Network #1-Abnormal Update Rate,Proprietary Datalink Error (OEM/Vehicle Datalink) - Abnormal update rate,1,NULL
+0:1131-J1939,1,Intake Manifold 2 Temp - Data Valid but Above Norm Operational Range - Most Severe Lvl,"Intake Manifold 2 Temperature ",1,NULL
+0:1132-J1939,1,Intake Manifold 3 Temp - Data Valid but Above Norm Operational Range - Most Severe Lvl,"Intake Manifold 3 Temperature ",1,NULL
+0:1133-J1939,1,Intake Manifold 4 Temp - Data Valid but Above Norm Operational Range - Most Severe Lvl,"Intake Manifold 4 Temperature ",1,NULL
+0:1144-J1939,1,Eng Exh Gas Port 8 Temper-High - most severe(3),"Exhaust Gas Temperature Cylinder 8 (B4) ",1,NULL
+0:1145-J1939,1,Eng Exh Gas Port 9 Temper-High - most severe(3),"Exhaust Gas Temperature Cylinder 9 (A5) ",1,NULL
+0:1146-J1939,1,Eng Exh Gas Port 10 Temper-High - most severe(3),"Exhaust Gas Temperature Cylinder 10 (B5) ",1,NULL
+0:1147-J1939,1,Eng Exh Gas Port 11 Temper-High - most severe(3),"Exhaust Gas Temperature Cylinder 11 (A6) ",1,NULL
+0:1148-J1939,1,Eng Exh Gas Port 12 Temper-High - most severe(3),"Exhaust Gas Temperature Cylinder 12 (B6) ",1,NULL
+0:1149-J1939,1,Eng Exh Gas Port 13 Temper-High - most severe(3),"Exhaust Gas Temperature Cylinder 13 (A7) ",1,NULL
+0:1152-J1939,1,Eng Exh Gas Port 16 Temper-High - most severe(3),"Exhaust Gas Temperature Cylinder 16 (B8) ",1,NULL
+0:1154-J1939,1,Eng Exh Gas Port 18 Temper-High - most severe(3),"Exhaust Gas Temperature Cylinder 18 (B9) ",1,NULL
+0:1803-J1939,1,Intake Manifold 6 Temp - Data Valid but Above Norm Operational Range - Most Severe Lvl,"Intake Manifold 6 Temperature ",1,NULL
+10:105-J1939,1,Intake Manifold 1 Temperature - Abnormal Rate of Change,"Intake Manifold 1 Temperature ",1,NULL
+12:630-J1939,1,Eng Ctrl Module Warning Software error,"Engine Control Module Calibration Memory Software ",1,NULL
+13:651-J1939,1,Engine Fuel 1 Injector Cylinder 1-Out of Calibration,"Injector Solenoid Driver Cylinder 1 ",1,NULL
+13:652-J1939,1,Engine Fuel 1 Injector Cylinder 2-Out of Calibration,"Injector Solenoid Driver Cylinder 2 ",1,NULL
+13:653-J1939,1,Engine Fuel 1 Injector Cylinder 3-Out of Calibration,"Injector Solenoid Driver Cylinder 3 ",1,NULL
+13:654-J1939,1,Engine Fuel 1 Injector Cylinder 4-Out of Calibration,"Injector Solenoid Driver Cylinder 4 ",1,NULL
+13:655-J1939,1,Engine Fuel 1 Injector Cylinder 5-Out of Calibration,"Injector Solenoid Driver Cylinder 5 ",1,NULL
+13:656-J1939,1,Engine Fuel 1 Injector Cylinder 6-Out of Calibration,"Injector Solenoid Driver Cylinder 6 ",1,NULL
+1:1761-J1939,1,Catalyst Tank Level-Low - most severe(3),"Aftertreatment Diesel Exhaust Fluid Tank Level ",1,NULL
+2:1563-J1939,1,"Control Module Identification I/P State Error-Data Erratic, Intermittent, or Incorrect","Control Module Identification Input State Error ",1,NULL
+86-CAT3GData,1,High Left Front Brake Oil Temperature,86 - High Left Front Brake Oil Temperature,1,NULL
+87-CAT3GData,1,High Right Front Brake Oil Temperature,87 - High Right Front Brake Oil Temperature,1,NULL
+10:5031-J1939,1,Aftertreatment 1 Outlet NOx Sensor Heater Ratio-Abnormal Rate of Change,"Aftertreatment Outlet NOx Sensor Heater ",1,NULL
+16:1331-J1939,1,Engine Misfire Cylinder #9-High-moder svrty(2),Exhaust Gas Temperature Deviation High for Cylinder 9 - Data Valid But Above Normal Operating Range - Moderately Severe Level,1,NULL
+16:4334-J1939,1,Aftertreatment 1 Diesel Exhaust Fluid Doser 1 Absolute Pressure-High-moder svrty(2),"Aftertreatment Diesel Exhaust Fluid Pressure Sensor ",1,NULL
+16:4360-J1939,1,Aftertreatment 1 SCR Intake Temperature-High-moder svrty(2),"Aftertreatment SCR Intake Temperature ",1,NULL
+18:4334-J1939,1,Aftertreatment 1 Diesel Exhaust Fluid Doser 1 Absolute Pressure-Low-moder svrty(2),"Aftertreatment Diesel Exhaust Fluid Pressure Sensor ",1,NULL
+875-CAT3GData,1,Low System Voltage,875 - Low System Voltage,1,NULL
+1481-CAT3GData,1,1481-CAT3GData,1481-Operator Input Detected While in Autonomous Mode,1,NULL
+1:520754-J1939,1,1:520754-J1939,Engine Fuel Pump Oil Pressure-Low - most severe(3),1,NULL
+2657-CAT3GData,1,2657-CAT3GData,2657-Low Supply Brake Accumulator Pressure,1,NULL
+3:520754-J1939,1,3:520754-J1939,Engine Fuel Pump Oil Pressure-Shorted high,1,NULL
+4:520215-J1939,1,4:520215-J1939,Interstage Air Pressure 1 Circuit - Voltage Below Normal or Shorted to Low Source,1,NULL
+4:520216-J1939,1,4:520216-J1939,"Interstage Air Pressure 2 Circuit ",1,NULL
+4:520754-J1939,1,4:520754-J1939,Engine Fuel Pump Oil Pressure-Shorted low,1,NULL
+1797-CAT3GMaint,1,Fuel Rail Pressure Sensor,1797 - Fuel Rail Pressure Sensor,1,NULL
+18:520754-J1939,1,18:520754-J1939,Engine Fuel Pump Oil Pressure-Low-moder svrty(2),1,NULL
+4322-CAT3GMaint,1,4322-CAT3GMaint,4322-Front Brake Charge Pressure Sensor,1,NULL
+4323-CAT3GMaint,1,4323-CAT3GMaint,4323-Rear Brake Charge Pressure Sensor,1,NULL
+6338-CAT3GMaint,1,6338-CAT3GMaint,6338-Supply Brake Accumulator Pressure Sensor,1,NULL
+CMS-BCS,1,CMS-BCS,CMS CAN ERROR,2,NULL
+LSP-BCS,1,LSP-BCS,Load sensing,2,NULL
+FP_R-BCS,1,Foot pedal right,Foot pedal right,error,NULL
+FP_R-BCS,1,FP_R-BCS,Foot pedal right,2,NULL
+HH_L-BCS,1,Left hand lever,Left hand lever,2,NULL
+HH_L-BCS,1,HH_L-BCS,Left hand lever,2,NULL
+HH_R-BCS,1,HH_R-BCS,Right hand lever,2,NULL
+HH_R-BCS,1,Right hand lever,Right hand lever,2,NULL
+2:91-J1939,1,Accelrtr Pedal Pos 1-Errat Intermit or Incor,"Accelerator Pedal or Lever Position Sensor 1 ",2,NULL
+2:98-J1939,1,Eng Oil Level-Errat Intermit or Incor,"Engine Oil Level ",2,NULL
+4:91-J1939,1,"Accelerator Pedal or Lever Pos Sensor 1 Circuit - Volt Below Norm, or Shorted to Lo Src","Accelerator Pedal or Lever Position Sensor 1 Circuit ",2,NULL
+4:94-J1939,1,"Fuel Delivery Pressure Sensor Circuit - Voltage Below Normal, or Shorted to Low Source","Fuel Delivery Pressure Sensor Circuit ",2,NULL
+8:91-J1939,1,"Accelerator Pedal or Lever Pos Sensor 1 Circuit Freq-Abnorm Freq, Pulsewidth, or Period","Accelerator Pedal or Lever Position Sensor 1 Circuit Frequency ",error,NULL
+DMWST2-BCS,1,Diesel engine - Water level RH,Diesel engine - Water level RH,2,NULL
+DMWST2-BCS,1,DMWST2-BCS,Diesel engine - Water level RH,2,NULL
+HOT_OV-BCS,1,HOT_OV-BCS,Hydraulic fluid - Temperature,2,NULL
+HOT_OV-BCS,1,Hydraulic fluid - Temperature,Hydraulic fluid - Temperature,2,NULL

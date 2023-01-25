@@ -1,0 +1,79 @@
+[
+  {
+    "tagID": "B1_219_PI",
+    "longName": "LONG_B1_219_PI",
+    "assetID":  "RDO",
+    "field": "RCB-BeltSpeed - RCB Tachometer",
+    "area": "RDO",
+    "assetType":  "RDO",
+    "componentLocation": "RDO",
+    "uniqueName": "UNIQUE_B1_219_PI",
+    "site":  "RDO"
+  },
+  {
+    "tagID": "D2_310A_TT",
+    "longName": "LONG_D2_310A_TT",
+    "assetID":  "RDO",
+    "field": "RCB-BeltSpeed - RCB Tachometer",
+    "area": "RDO",
+    "assetType":  "RDO",
+    "componentLocation": "RDO",
+    "uniqueName": "UNIQUE_D2_310A_TT",
+    "site":  "RDO"
+  },
+  {
+    "tagID": "D2_310B_TT",
+    "longName": "LONG_D2_310B_TT",
+    "assetID":  "RDO",
+    "field": "RCB-BeltSpeed - RCB Tachometer",
+    "area": "RDO",
+    "assetType":  "RDO",
+    "componentLocation": "RDO",
+    "uniqueName": "UNIQUE_D2_310B_TT",
+    "site":  "RDO"
+  },
+  {
+    "tagID": "L2_Distance",
+    "longName": "LONG_L2_Distance",
+    "assetID":  "RDO",
+    "field": "RCB-BeltSpeed - RCB Tachometer",
+    "area": "RDO",
+    "assetType":  "RDO",
+    "componentLocation": "RDO",
+    "uniqueName": "UNIQUE_L2_Distance",
+    "site":  "RDO"
+  },
+  {
+    "tagID": "D2_339_PT",
+    "longName": "LONG_D2_339_PT",
+    "assetID":  "RDO",
+    "field": "RCB-BeltSpeed - RCB Tachometer",
+    "area": "RDO",
+    "assetType":  "RDO",
+    "componentLocation": "RDO",
+    "uniqueName": "UNIQUE_D2_339_PT",
+    "site":  "RDO"
+  },
+  {
+    "tagID": "D2_340_LIC",
+    "longName": "LONG_D2_340_PT",
+    "assetID":  "RDO",
+    "field": "RCB-BeltSpeed - RCB Tachometer",
+    "area": "RDO",
+    "assetType":  "RDO",
+    "componentLocation": "RDO",
+    "uniqueName": "UNIQUE_D2_340_PT",
+    "site":  "RDO"
+  },
+  {
+    "tagID": "D2_302_PDT",
+    "longName": "LONG_D2_302_PDT",
+    "assetID":  "RDO",
+    "field": "RCB-BeltSpeed - RCB Tachometer",
+    "area": "RDO",
+    "assetType":  "RDO",
+    "componentLocation": "RDO",
+    "uniqueName": "UNIQUE_D2_302_PDT",
+    "site":  "RDO"
+  }
+]
