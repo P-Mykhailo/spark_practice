@@ -1,7 +1,7 @@
 import json
 import requests
 # Opening JSON file
-f = open("/dev/data_for_examples/rdo-lookup-data.json")
+f = open("C:/Users/mpuga/PycharmProjects/spark_practice/dev/data_for_examples/rdo-lookup-data.json")
 
 # returns JSON object as
 # a dictionary

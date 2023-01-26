@@ -1,7 +1,9 @@
+
 import csv
 import re
 
-with open("/dev/data_for_examples/mem_alert_new_table.csv") as file:
+with open("C:/Users/mpuga/PycharmProjects/spark_practice/dev/"
+          "data_for_examples/mem_alert_new_table.csv") as file:
 #Read csv file with option delimeter
     csv_dictreader = csv.DictReader(file, dialect='excel', delimiter=",")
 
