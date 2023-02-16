@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "extreme-arch-376708",
+  "private_key_id": "2240fcce3531bc090987df2816f2a61e14c00fba",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC0dCwGMKybqv33\nzAwlAQrOaWlrxmXLuz/ek2DWpIoZH5iz/GQTapuKkBc6tU3GAJhFwVOyGrLwzBHe\nnyY4novHul9lwRlgAQVmow0LEDPTxMZrWt66LQCCbjPilV29t/3QliZ2Mi/QMcDC\nsYOASZXaoU+bjA7pPfS3iGo5CZDunvaDRvrhxN0XrFek1lD0Gx7djL1U+UVvQnv4\nUv4nWbcCYFD5aNuudIMBEcDk1tAnmRRoD7e+zZ5qAE/EtK3USOiTqXwpT9cItZXW\n22FdwG2AmI6/fhpRKkJ6LJaA2Qk+2tT5TQnsTDICT031N8vjZKzRDegRw4odVryq\n1rfXq9XVAgMBAAECggEADvOJKkIiKwux2zQm1XIOqSeGuo1Hpeev1Qs0/NPJNWeu\nyUriJ9GvbX2ezxhyhzNJao4oFxurM9RUrrNVAV/xiOziNpYXOiMbhXOBAyemg6dM\nIVz4E0jjP+tNlTp2998kwoGOUkC6QW+93uPCV4DBT8oJxIOIQL8HZaWB15P5VCvn\n9vCdS50DS9VYzAmdYPs2hYTzEY9dkHYQDiN6t/xPFVb50F5Gr8+aWnnWEPrVeu9f\nBHx0Dkah9SXeQ8h7uNAbhrkG69/whR7Pr+sjT+URpSGMmEjvTZVLTD+jlMw34mp5\nLnEFBqq0JF7gkirme5aYnrqFkR2WcQvQOkv4j6SvAQKBgQDXu7rUpAmgSTUQf9ad\nSDDx6Yp6p8c2c1VKIRzfl7oX+yfwpc1heT2ylOMWPDhaTrEQypugJc+dW+t7jJuD\n+jtUGofqAJX2cPA8zZkjRBLiR9/4XAXjNTdmXR2iuNDzR5W5LyGiZhrFWMtaoy+U\nJs/qZiB/tEm40oWtPGTHH6deIQKBgQDWIrMUmRW2x3VEoLBuPsrM1gya0IjA0zXe\nYjfe2HZFd+UoQR8/FVSCECU2Q9+wIUgZTwdBPWc4ypPFtvqK0Oo0ciClEa2x9pCZ\n37tZNRk+7kTnxP0XNuNCoR2rcIn8klybIjpT1Qh2y4GkoevmVyrcYSlc4PUTpKn2\nuNTPpBA5NQKBgGGrnad96NnHqx2gMyMcNwSfLlHfugJ97uRT34WfZOJMlEWQW07B\nHFzIqZM8imrga6vlftXfqIJexls2SoZS+R9Xr6cSwtJDSZDNqIJd5IrL7au8xfGa\n+0z95VfxgrBR/YhMvVaQEZi9XbvYW8cgV0uRFy+aCTKDJYBL8nhwbU7hAoGASBNX\n6af5WhNa0mWv3Pu/sSCfD4D/dr/g0uCGY7jCXnGTrW/1/3rDfh/HFrPT1+nr5bDn\nBTuQwdnV0WfcftsA6fQ8LrN7nnoag+B9o/IudDMo+EYi1iyAZA3s+aagm2X8S69C\nqLL87VdkZLCnwVk3sQP3My747squ9r+Rye40E70CgYEAoCZ/XpWxHFCMzjCV/6Q3\nQ7yq6+QIBa5fDzTAWYEgu4LLtVOYdBTZDnVW02CiyyZz3CRIiCWbWqNIrkzHXw/D\nZje1ZKSIoPPTa81H/OLNwNkKcJOVXJ6p6qd7dqmFWrttOfVLn08ecprU8iTBWhzU\n1cGbbMbTiKHouU5U1rVqU2M=\n-----END PRIVATE KEY-----\n",
+  "client_email": "mykhailo-cloud-admin@extreme-arch-376708.iam.gserviceaccount.com",
+  "client_id": "109236160942629110764",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mykhailo-cloud-admin%40extreme-arch-376708.iam.gserviceaccount.com"
+}

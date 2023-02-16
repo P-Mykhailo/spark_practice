@@ -14,6 +14,7 @@ def parseLine(line):
     return (stationID, entryType, temperature)
 
 lines = sc.textFile("C:/Users/mpuga/PycharmProjects/spark_practice/dev/sparkcourse_udemy/resources/1800.csv")
+print(lines.getNumPartitions())
 parsedLines = lines.map(parseLine)
 maxTemps = parsedLines.filter(lambda x: "TMAX" in x[1])
 stationTemps = maxTemps.map(lambda x: (x[0], x[2]))

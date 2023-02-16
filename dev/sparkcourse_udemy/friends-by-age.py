@@ -3,7 +3,8 @@ findspark.init()
 
 from pyspark import SparkConf, SparkContext
 
-conf = SparkConf().setMaster("local").setAppName("FriendsByAge")
+conf = SparkConf().setMaster("local").setAppName("FriendsByAge");
+
 sc = SparkContext(conf = conf)
 
 def parseLine(line):

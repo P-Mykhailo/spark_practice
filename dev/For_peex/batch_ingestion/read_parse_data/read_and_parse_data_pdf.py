@@ -32,23 +32,19 @@ with pdfplumber.open(my_pdf_table) as pdf:
     table_1 = table[0]
     table_dwuznaki = table[1]
     table_uwaga = table[2]
-    pdf.close()
 
 #Write new table into csv file with other delimiter
 with open('C:/Users/mpuga/PycharmProjects/spark_practice/dev/data_for_examples/'
           'table_from_pdf_alphabet.csv', 'w', encoding='utf-8') as f:
     writer = csv.writer(f,  delimiter=';')
     writer.writerows(table_1)
-    f.close()
 
 with open('C:/Users/mpuga/PycharmProjects/spark_practice/dev/data_for_examples/'
           'table_from_pdf_dwuznaki.csv', 'w', encoding='utf-8') as f:
     writer = csv.writer(f,  delimiter=';')
     writer.writerows(table_dwuznaki)
-    f.close()
 
 with open('C:/Users/mpuga/PycharmProjects/spark_practice/dev/data_for_examples/'
           'table_from_pdf_uwaga.csv', 'w', encoding='utf-8') as f:
     writer = csv.writer(f,  delimiter=';')
     writer.writerows(table_uwaga)
-    f.close()

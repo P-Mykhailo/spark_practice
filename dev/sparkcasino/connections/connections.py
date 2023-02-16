@@ -5,7 +5,6 @@ import pyspark
 
 spark = pyspark.sql.SparkSession.builder.master("local").appName("spark").getOrCreate()
 
-
 class InputData():
 
     def curexdf(self):
